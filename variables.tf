@@ -31,7 +31,7 @@ variable "github_team_privacy" {
 
 variable "aws_role_allowed_github_maintainer_users" {
     type = "list"
-    description = "List of the github users allowed to maintain this team on github"
+    description = "List of the github users allowed to maintain this team on github and assume the role"
     default = []
 }
 
