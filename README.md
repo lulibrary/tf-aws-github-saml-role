@@ -31,6 +31,7 @@ module "operations_admin_role" {
 | aws_saml_provider_assume_policy_sid | N/A | SID to give the assume role policy for the SAML role |
 | aws_saml_role_name | N/A | Name of the role/team to create |
 | github_team_privacy | secret | Privacy of the created GitHub team, can be secret or closed |
+| github_team_parent_id | N/A | Team ID for the parent team of the team being created. |
 | aws_role_allowed_github_maintainer_users | [] | List of the github users allowed to maintain this team on github and assume the role |
 | aws_role_allowed_github_users | [] | List of the github users allowed to assume this role |
 
